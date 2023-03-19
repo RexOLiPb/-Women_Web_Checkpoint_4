@@ -11,8 +11,14 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-- connect to a Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Quicksand:wght@500&display=swap"
+    rel="stylesheet">
   <!-- connect to a Font Aweseom font -->
   <script src="https://kit.fontawesome.com/5d8bc56dc2.js" crossorigin="anonymous"></script>
   <!-- connect to a favicon -->
@@ -51,33 +57,33 @@
     <nav role="navigation" class="mobile-nav">
       <div id="menuToggle">
         <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-      <ul id="menu">
-        <div class="icon">
-          <i class="fa-brands fa-phoenix-framework" id="active-m"></i>
-          <li><a href="index.html">About</a></li>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-crown"></i>
-          <li><a href="literature.html">Literature</a></li>
-        </div>
-        <div class="icon">
-          <i class="fa-brands fa-phoenix-squadron"></i>
-          <li><a href="history.html">History&Politics</a></li>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-book-bookmark"></i>
-          <li><a href="femdict.html">FeministDictionary</a></li>
-        </div>
-      </ul>
-     </div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <div class="icon">
+            <i class="fa-brands fa-phoenix-framework" id="active-m"></i>
+            <li><a href="index.html">About</a></li>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-crown"></i>
+            <li><a href="literature.html">Literature</a></li>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-phoenix-squadron"></i>
+            <li><a href="history.html">History&Politics</a></li>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-book-bookmark"></i>
+            <li><a href="femdict.html">FeministDictionary</a></li>
+          </div>
+        </ul>
+      </div>
     </nav>
 
     <div class="skip">
       <i class="fa-solid fa-dove" id="skipTop"></i>
-      <a href="#" class="back-to-top">Top</a>
+      <a href="#main-content" class="back-to-top">Main</a>
     </div>
 
     <!-- <h1> Woman's Web </h1> -->
@@ -87,10 +93,10 @@
     <div class="slogan">
       <h2>The reason why I am here is jsut three thing: Fair, Fair, and F*** Fair as well!</h2>
     </div>
-    
+
   </header>
 
-  <main>
+  <main id="main-content">
 
     <div class="main-image">
       <img src="images/women_march_pano.jpg" width="2500px" alt="Image of the Ann Arbor Women's March">
@@ -112,30 +118,51 @@
       This website currently contains 3 pages other than this one - click below to see a short description of each!
     </p>
 
+    <div class="category">
+      <div class="category-container">
+        <div class="left">
+          <div class="title"><a href="literature.html">Literature</a></div>
+          <div class="category-ex">
+            <p>
+              This page features books written by women and for women, books and essays about feminism, poems, plays,
+              and
+              bios
+              of female writers.
+            </p>
+          </div>
+        </div>
+        <div class="ca-image1"></div>
+      </div>
 
-    <div class="title">Literature</div>
+      <div class="category-container">
+        <div class="left">
+          <div class="title"><a href="history.html">History / Politics</a></div>
+          <div class="category-ex">
+            <p>
+              This page features bios of important women in history and women currently in Congress or otherwise
+              politically involved.
+            </p>
+          </div>
+        </div>
+        <div class="ca-image2"></div>
+      </div>
 
-    <div>
-      <p>
-        This page features books written by women and for women, books and essays about feminism, poems, plays, and bios
-        of female writers.
-      </p>
-    </div>
-    <div class="title">History / Politics</div>
+      <div class="category-container">
+        <div class="left">
+          <div class="title"><a href="femdict.html">Feminist Dictionary</a></div>
+          <div class="category-ex">
+            <p>
+              This page features a collection of important feminist terminology that might make reading easier. These
+              will include formal definitions and my own understandings of the terms.
+            </p>
+          </div>
+        </div>
+        <div class="ca-image3"></div>
+      </div>
 
-    <div>
-      <p>
-        This page features bios of important women in history and women currently in Congress or otherwise politically
-        involved.
-      </p>
     </div>
-    <div class="title">Feminist Dictionary</div>
-    <div>
-      <p>
-        This page features a collection of important feminist terminology that might make reading easier. These will
-        include formal definitions and my own understandings of the terms.
-      </p>
-    </div>
+
+
     <div>
       <p>
         <span>Kelsey's DISCLAIMER:</span> I did not know everything!! I'm only human - I'm still growing and learning
@@ -143,6 +170,7 @@
         unbiased as possible.
       </p>
     </div>
+
   </main>
 
   <footer>
